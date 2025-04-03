@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A2E;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    background: #0F3460;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    background: #D90429;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Projects */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: #16213E;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+form {
+    background: #0F3460;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background: #D90429;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
